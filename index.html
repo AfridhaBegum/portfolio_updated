@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Afridha Begum — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">afridha<span>.</span>dev</div>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap" style="border-top:none;">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow-line"><span class="dot"></span> Open to software engineering roles</div>
+        <h1 class="headline" id="heroHeadline">
+          <span class="line"><span>Afridha Begum</span></span>
+          <span class="line"><span class="accent-role">builds for the web.</span></span>
+        </h1>
+        <p class="hero-sub">A software developer with a background in Electronics &amp; Communication Engineering. Currently strengthening data structures &amp; algorithms in Java and building front-end projects with HTML, CSS and JavaScript.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="assets/afridha_resume.pdf">Download resume</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/AfridhaBegum" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/afridha-begum" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://leetcode.com/u/afridhabegum/" target="_blank" rel="noopener">LeetCode</a>
+          <a href="https://www.geeksforgeeks.org/user/jafridha/" target="_blank" rel="noopener">GeeksforGeeks</a>
+        </div>
+      </div>
+
+      <div class="code-panel" id="codePanel">
+        <div class="bar"><span></span><span></span><span></span><span class="fname">about.js</span></div>
+        <pre id="codeText"></pre>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track" id="marqueeTrack">
+      <span class="hi">JavaScript</span><span class="sep">/</span>
+      <span>Python</span><span class="sep">/</span>
+      <span class="hi">HTML</span><span class="sep">/</span>
+      <span>CSS</span><span class="sep">/</span>
+      <span class="hi">Git &amp; GitHub</span><span class="sep">/</span>
+      <span>DSA in Java</span><span class="sep">/</span>
+      <span class="hi">Problem Solving</span><span class="sep">/</span>
+    </div>
+  </div>
+
+  <section id="about" class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><span class="sec-title">About</span></div>
+    <div class="about-grid">
+      <div class="portrait fade-up">
+        <img src="assets/afridha.jpeg" alt="Afridha Begum">
+      </div>
+      <div class="about-text fade-up">
+        <p>I have a degree in Electronics &amp; Communication Engineering and have since been building skills in front-end development, including HTML, CSS, JavaScript and Python. I'm also comfortable with Git and GitHub for version control.</p>
+        <p>My current focus is strengthening data structures &amp; algorithms in Java and continuing to build my project portfolio.</p>
+        <div class="stat-row">
+          <div class="stat"><b>4+</b><span>Projects</span></div>
+          <div class="stat"><b>2</b><span>LeetCode &amp; GfG</span></div>
+          <div class="stat"><b>Java</b><span>DSA focus</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><span class="sec-title">Skills</span></div>
+
+    <div class="skill-group">
+      <h4>// core</h4>
+      <div class="chip-row">
+        <span class="chip on">JavaScript</span>
+        <span class="chip on">HTML5</span>
+        <span class="chip on">CSS3</span>
+        <span class="chip on">Python</span>
+        <span class="chip on">Git &amp; GitHub</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h4>// currently sharpening</h4>
+      <div class="chip-row">
+        <span class="chip">Java (DSA)</span>
+        <span class="chip">Data Structures &amp; Algorithms</span>
+        <span class="chip">Backend fundamentals</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h4>// working style</h4>
+      <div class="chip-row">
+        <span class="chip">Problem solving</span>
+        <span class="chip">Project management</span>
+        <span class="chip">Responsive design</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><span class="sec-title">Selected work</span></div>
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-thumb"><span class="proj-index">01</span><img src="assets/fashion timeline 2.png" alt="Fashion Timeline"></div>
+        <div class="proj-body">
+          <h3>Fashion Timeline</h3>
+          <p>An interactive fashion timeline showcasing fashion trends and their evolution through different eras with smooth scroll-based animations.</p>
+          <a class="proj-link" href="https://afridhabegum.github.io/fashion_timeline_gsap/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+      
+      <div class="proj-card">
+        <div class="proj-thumb"><span class="proj-index">02</span><img src="assets/sushi web.png" alt="Sushi restaurant website"></div>
+        <div class="proj-body">
+          <h3>Japanese Sushi Restaurant</h3>
+          <p>A mobile-friendly restaurant site with an elegant layout for a traditional sushi menu.</p>
+          <a class="proj-link" href="https://afridhabegum.github.io/sushi_website/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-thumb"><span class="proj-index">03</span><img src="assets/bookstore.png" alt="Bookstore website"></div>
+        <div class="proj-body">
+          <h3>BookStore Website</h3>
+          <p>A floral-themed bookstore site with responsive animations and interactive image scrolling.</p>
+          <a class="proj-link" href="https://afridhabegum.github.io/BookStore_Website/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-thumb"><span class="proj-index">04</span><img src="assets/tic tac toe.png" alt="Tic tac toe game"></div>
+        <div class="proj-body">
+          <h3>Tic-Tac-Toe</h3>
+          <p>A browser-based tic-tac-toe game built with vanilla JS, using a modular, clean UI structure.</p>
+          <a class="proj-link" href="https://charming-belekoy-12835d.netlify.app/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-thumb"><span class="proj-index">05</span><img src="assets/shakespeare.png" alt="Shakespeare tribute page"></div>
+        <div class="proj-body">
+          <h3>Shakespeare's Tribute Page</h3>
+          <p>A fully responsive tribute page with a vintage aesthetic and smooth scroll animations.</p>
+          <a class="proj-link" href="https://candid-torte-508944.netlify.app/" target="_blank" rel="noopener">View live →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><span class="sec-title">Contact</span></div>
+    <div class="contact-box">
+      <h2>Get in touch.</h2>
+      <p>I'm open to software engineering opportunities. Feel free to reach out by email or connect on LinkedIn.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:jafridhabegum@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/afridha-begum" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/AfridhaBegum" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> Afridha Begum</span>
+  <span>Built with care, one commit at a time.</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
